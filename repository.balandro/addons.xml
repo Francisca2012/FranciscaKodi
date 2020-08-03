@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="true"?>
+
+-<addon provider-name="Balandro" version="1.0.3" name="Balandro Repo" id="repository.balandro">
+
+
+-<requires>
+
+<import version="12.0.0" addon="xbmc.addon"/>
+
+</requires>
+
+
+-<extension name="Balandro Repo" point="xbmc.addon.repository">
+
+<info>https://balandro.tk/repo/addons.xml</info>
+
+<checksum>https://balandro.tk/repo/addons.xml.md5</checksum>
+
+<datadir zip="true">https://balandro.tk/repo</datadir>
+
+</extension>
+
+
+-<extension point="xbmc.addon.metadata">
+
+<summary>Repositorio para Balandro</summary>
+
+<description>Balandro es un navegador para webs con vídeos de películas y series.</description>
+
+<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+
+<platform>all</platform>
+
+</extension>
+
+</addon>
